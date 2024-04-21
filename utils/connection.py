@@ -8,7 +8,7 @@ def mysql_params(schema: str) -> Tuple[str, str, str, str, str]:
     
     if schema == 'oltp':
         db = 'OLTP_DATABASE'
-    else:
+    if schema == 'olap':
         db = 'OLAP_DATABASE'
     
     HOST = os.getenv('HOST')

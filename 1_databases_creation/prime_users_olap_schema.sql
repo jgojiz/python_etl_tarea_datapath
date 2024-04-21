@@ -20,11 +20,11 @@ CREATE TABLE prime_users (
 	Purchase_History VARCHAR(15),
 	Favorite_Genres VARCHAR(15),
 	Devices_Used VARCHAR(15),
-	Engagement_Metrics INT,
+	Engagement_Metrics VARCHAR(15),
 	Feedback_Ratings INT,
-	Customer_Support_Interactions INT,
-    PRIMARY KEY (User_ID)
+	Customer_Support_Interactions INT
 );
+
 
 CREATE TABLE dimension_time (
     time_id INT PRIMARY KEY,

@@ -2,4 +2,3 @@ pandas==
 sqlalchemy==
 typing==
 dotenv==
-kaggle==
