@@ -1,4 +1,2 @@
-pandas==
-sqlalchemy==
-typing==
-dotenv==
+pandas==2.2.1
+sqlalchemy==2.0.29

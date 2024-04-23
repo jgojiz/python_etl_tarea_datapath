@@ -24,16 +24,3 @@ CREATE TABLE prime_users (
 	Feedback_Ratings INT,
 	Customer_Support_Interactions INT
 );
-
-
-CREATE TABLE dimension_time (
-    time_id INT PRIMARY KEY,
-    year INT NOT NULL,
-    quarter INT NOT NULL,
-    month INT NOT NULL,
-    day INT NOT NULL,
-    day_of_week INT NOT NULL,
-    day_of_year INT NOT NULL,
-    week_of_year INT NOT NULL,
-    is_weekend BOOLEAN NOT NULL
-);
